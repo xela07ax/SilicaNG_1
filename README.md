@@ -1,2 +1,4 @@
 # SilicaNG_1
- SilicaNG_1-SilicaNG_1-SilicaNG_1-SilicaNG_1-SilicaNG_1
+ Тестовый проект на Java с использованием библиотеки TestNG
+
+ 

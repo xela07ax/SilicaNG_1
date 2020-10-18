@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.267 sec <<< FAILURE! - in TestSuite
+testSub(ru.otr.eb_ufos.CalcTest)  Time elapsed: 0.01 sec  <<< FAILURE!
+java.lang.AssertionError: expected [5] but found [-1]
+	at ru.otr.eb_ufos.CalcTest.testSub(CalcTest.java:17)
+
+testSubpd(ru.otr.eb_ufos.CalcTest1)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.AssertionError: expected [5] but found [-8]
+	at ru.otr.eb_ufos.CalcTest1.testSubpd(CalcTest1.java:17)
+

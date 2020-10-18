@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [C:\Users\Tester\Projects\NgIdea]">
+  <test thread-count="5" verbose="0" name="testngTest(failed)">
+    <classes>
+      <class name="ru.otr.eb_ufos.CalcTest1">
+        <methods>
+          <include name="testSubpd"/>
+        </methods>
+      </class> <!-- ru.otr.eb_ufos.CalcTest1 -->
+      <class name="ru.otr.eb_ufos.CalcTest">
+        <methods>
+          <include name="testSub"/>
+        </methods>
+      </class> <!-- ru.otr.eb_ufos.CalcTest -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [C:\Users\Tester\Projects\NgIdea] -->
