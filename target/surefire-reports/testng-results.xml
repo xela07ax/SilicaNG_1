@@ -2,16 +2,12 @@
 <testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="C:\Users\Tester\Projects\NgIdea" duration-ms="24" started-at="2020-10-17T15:59:47Z" finished-at="2020-10-17T15:59:47Z">
+  <suite name="C:\Users\Tester\Projects\NgIdea" duration-ms="33" started-at="2020-11-07T17:56:36Z" finished-at="2020-11-07T17:56:36Z">
     <groups>
     </groups>
-    <test name="testngTest" duration-ms="24" started-at="2020-10-17T15:59:47Z" finished-at="2020-10-17T15:59:47Z">
+    <test name="testngTest" duration-ms="33" started-at="2020-11-07T17:56:36Z" finished-at="2020-11-07T17:56:36Z">
       <class name="ru.otr.eb_ufos.CalcTest1">
-        <test-method status="PASS" signature="testSumpd()[pri:0, instance:ru.otr.eb_ufos.CalcTest1@5ba23b66]" name="testSumpd" duration-ms="0" started-at="2020-10-17T15:59:47Z" finished-at="2020-10-17T15:59:47Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSumpd -->
-        <test-method status="FAIL" signature="testSubpd()[pri:0, instance:ru.otr.eb_ufos.CalcTest1@5ba23b66]" name="testSubpd" duration-ms="0" started-at="2020-10-17T15:59:47Z" finished-at="2020-10-17T15:59:47Z">
+        <test-method status="FAIL" signature="testSubpd()[pri:0, instance:ru.otr.eb_ufos.CalcTest1@5ba23b66]" name="testSubpd" duration-ms="0" started-at="2020-11-07T17:56:36Z" finished-at="2020-11-07T17:56:36Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [5] but found [-8]]]>
@@ -59,9 +55,13 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSubpd -->
+        <test-method status="PASS" signature="testSumpd()[pri:0, instance:ru.otr.eb_ufos.CalcTest1@5ba23b66]" name="testSumpd" duration-ms="0" started-at="2020-11-07T17:56:36Z" finished-at="2020-11-07T17:56:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSumpd -->
       </class> <!-- ru.otr.eb_ufos.CalcTest1 -->
       <class name="ru.otr.eb_ufos.CalcTest">
-        <test-method status="FAIL" signature="testSub()[pri:0, instance:ru.otr.eb_ufos.CalcTest@6debcae2]" name="testSub" duration-ms="4" started-at="2020-10-17T15:59:47Z" finished-at="2020-10-17T15:59:47Z">
+        <test-method status="FAIL" signature="testSub()[pri:0, instance:ru.otr.eb_ufos.CalcTest@6debcae2]" name="testSub" duration-ms="7" started-at="2020-11-07T17:56:36Z" finished-at="2020-11-07T17:56:36Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [5] but found [-1]]]>
@@ -109,7 +109,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSub -->
-        <test-method status="PASS" signature="testSum()[pri:0, instance:ru.otr.eb_ufos.CalcTest@6debcae2]" name="testSum" duration-ms="1" started-at="2020-10-17T15:59:47Z" finished-at="2020-10-17T15:59:47Z">
+        <test-method status="PASS" signature="testSum()[pri:0, instance:ru.otr.eb_ufos.CalcTest@6debcae2]" name="testSum" duration-ms="0" started-at="2020-11-07T17:56:36Z" finished-at="2020-11-07T17:56:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSum -->
